@@ -12,7 +12,7 @@ config :logger, level: :warn
 # Configure your database
 config :funboxTest, FunboxTest.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "postgres123",
   database: "funboxtest_test",
   hostname: "db",
   pool: 10

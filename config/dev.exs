@@ -69,7 +69,7 @@ config :phoenix, :plug_init_mode, :runtime
 # Configure your database
 config :funboxTest, FunboxTest.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "postgres123",
   database: "funboxtest_dev",
   hostname: "db",
   pool_size: 10
